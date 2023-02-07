@@ -60,7 +60,6 @@ function Board({ xIsNext, squares, onPlay }) {
         />
       );
       u++;
-      // return <Square value={squares[indexArray[0]]} onSquareClick={() => handleClick(indexArray[0])} />;
     }
     row.push(
       <div className="board-row" key={u}>
